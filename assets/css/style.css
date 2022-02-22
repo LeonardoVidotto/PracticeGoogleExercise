@@ -172,11 +172,12 @@ footer .container{
 @media (max-width:425px){
     .brasil {
         font-size: 12px;
+        width: 368px;
     }
     .footerleft {
-        width: 1130px;
         padding-left: 0px;
         font-size: 12px;
+        width: 414px;
     }
     footer .container{
         display: flex;
@@ -185,5 +186,8 @@ footer .container{
     .footerright{
         justify-content: center;
         font-size: 12px;
+    }
+    input[type=text]{
+        width: 375px;
     }
 }
